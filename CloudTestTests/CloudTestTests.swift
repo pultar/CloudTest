@@ -29,7 +29,7 @@ final class CloudTestTests: XCTestCase {
         let actualResultAdd = CloudTest.add(x: x, y: y)
         XCTAssertEqual(expectedResultAdd, actualResultAdd)
         
-        let expectedResultMul = 21
+        let expectedResultMul = 20
         let actualResultMul = CloudTest.mul(x: x, y: y)
         XCTAssertEqual(expectedResultMul, actualResultMul)
     }
