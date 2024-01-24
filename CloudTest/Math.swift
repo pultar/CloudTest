@@ -10,3 +10,7 @@ import Foundation
 public func add(x: Int, y: Int) -> Int {
     return x + y
 }
+
+public func mul(x: Int, y: Int) -> Int {
+    return x * y
+}

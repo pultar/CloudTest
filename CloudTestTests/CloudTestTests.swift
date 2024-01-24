@@ -25,9 +25,13 @@ final class CloudTestTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
         let x = 5, y = 4
-        let expectedResult = 9
-        let actualResult = CloudTest.add(x: x, y: y)
-        XCTAssertEqual(expectedResult, actualResult)
+        let expectedResultAdd = 9
+        let actualResultAdd = CloudTest.add(x: x, y: y)
+        XCTAssertEqual(expectedResultAdd, actualResultAdd)
+        
+        let expectedResultMul = 21
+        let actualResultMul = CloudTest.mul(x: x, y: y)
+        XCTAssertEqual(expectedResultMul, actualResultMul)
     }
 
     func testPerformanceExample() throws {
