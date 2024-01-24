@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				DC227F072B61343F00019B1B /* CloudTest.h */,
-				DC227F082B61343F00019B1B /* CloudTest.docc */,
 				DC227F1E2B61345100019B1B /* Math.swift */,
+				DC227F082B61343F00019B1B /* CloudTest.docc */,
 			);
 			path = CloudTest;
 			sourceTree = "<group>";
