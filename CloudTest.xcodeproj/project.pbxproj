@@ -11,6 +11,7 @@
 		DC227F0F2B61343F00019B1B /* CloudTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC227F042B61343F00019B1B /* CloudTest.framework */; };
 		DC227F142B61343F00019B1B /* CloudTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC227F132B61343F00019B1B /* CloudTestTests.swift */; };
 		DC227F152B61343F00019B1B /* CloudTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DC227F072B61343F00019B1B /* CloudTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC227F1F2B61345100019B1B /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC227F1E2B61345100019B1B /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DC227F082B61343F00019B1B /* CloudTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CloudTest.docc; sourceTree = "<group>"; };
 		DC227F0E2B61343F00019B1B /* CloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC227F132B61343F00019B1B /* CloudTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTestTests.swift; sourceTree = "<group>"; };
+		DC227F1E2B61345100019B1B /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DC227F072B61343F00019B1B /* CloudTest.h */,
 				DC227F082B61343F00019B1B /* CloudTest.docc */,
+				DC227F1E2B61345100019B1B /* Math.swift */,
 			);
 			path = CloudTest;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC227F092B61343F00019B1B /* CloudTest.docc in Sources */,
+				DC227F1F2B61345100019B1B /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +410,7 @@
 		DC227F1C2B61343F00019B1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4PJU5FZK79;
@@ -421,6 +426,7 @@
 		DC227F1D2B61343F00019B1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4PJU5FZK79;

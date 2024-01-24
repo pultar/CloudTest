@@ -24,6 +24,10 @@ final class CloudTestTests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        let x = 5, y = 4
+        let expectedResult = 9
+        let actualResult = CloudTest.add(x: x, y: y)
+        XCTAssertEqual(expectedResult, actualResult)
     }
 
     func testPerformanceExample() throws {
